@@ -47,8 +47,8 @@ body  {
   width :  360px ;
   height :  600px ;
   position :  fixed ;
-  頂:  50% ;
-  left :  50% ;
+  top:  0% ;
+  left :  40% ;
   padding :  0  32px ;
   border-top :  1px  solid  hsla ( 0 ,  0% ,  1000% ,  0.5 );
   border-left :  1px  solid  hsla ( 0 ,  0% ,  1000% ,  0.5 );
@@ -80,7 +80,6 @@ body  {
 
 .modal__name  {
   font-size :  30px ;
-  left: 50%;
   color :  #f887d6 ;
 }
 
@@ -130,7 +129,8 @@ body  {
   height: 50px;
   margin: 0 auto;
   position: fixed;
-  left: 60%;
+  left: 50%;
   margin-left: -180px;
   bottom: 20px;
 }
+
