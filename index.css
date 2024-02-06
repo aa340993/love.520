@@ -131,3 +131,25 @@ body {
   margin-left: -180px;
   bottom: 20px;
 }
+
+
+.modal__img {
+  box-shadow: 0px 0px 40px rgba(181, 63, 122, 0.72);
+  border: 2px solid #ff008c;
+  transition: all 3.0s;
+}
+
+
+.modal__img {
+  box-shadow: 0 0 10px #fff;
+  -webkit-box-shadow: 0 0 19px #fff;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  /* IE 9 */
+  -moz-transform: rotate(360deg);
+  /* Firefox */
+  -webkit-transform: rotate(360deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(360deg);
+  /* Opera */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
